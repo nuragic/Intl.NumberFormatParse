@@ -1,9 +1,10 @@
+const SYMBOLS = {
+  unit: 'unit',
+  currency: 'currency',
+  percent: 'percentSign',
+};
+
 export default class NumberFormatParse {
-  symbols = {
-    unit: 'unit',
-    currency: 'currency',
-    percent: 'percentSign',
-  };
 
   constructor(locale, options = { style: 'decimal' }) {
     this.formatter = new Intl.NumberFormat(locale, options);
@@ -29,7 +30,7 @@ export default class NumberFormatParse {
     }
 
     if (options.style != null && options.style !== 'decimal') {
-      this.symbolKey = this.symbols[options.style];
+      this.symbolKey = SYMBOLS[options.style];
       this.symbol = parts.find((d) => d.type === this.symbolKey).value;
     }
   }
