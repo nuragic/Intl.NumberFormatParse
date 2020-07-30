@@ -1,6 +1,6 @@
 {
   "name": "number-format-parse",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Intl.NumberFormat with `parse()` and other useful features.",
   "author": "Andrea Puddu <me@nuragic.io>",
   "main": "src/index.js",
