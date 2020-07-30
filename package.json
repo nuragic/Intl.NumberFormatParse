@@ -1,0 +1,19 @@
+{
+  "name": "number-format-parse",
+  "version": "1.0.0",
+  "description": "Intl.NumberFormat with `parse()` and other useful features.",
+  "author": "Andrea Puddu <me@nuragic.io>",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuragic/Intl.NumberFormatParse.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuragic/Intl.NumberFormatParse/issues"
+  },
+  "homepage": "https://github.com/nuragic/Intl.NumberFormatParse#readme"
+}
